@@ -1,0 +1,22 @@
+:root {
+  --primaryYellow: #F4F3D8;
+  --secondaryYellow: #EBCE70;
+  --primaryDarkGreen: #06270B;
+  --secondaryDarkGreen: #041807;
+  --lightGreen: #77723B;
+  --primaryGrey: #989898;
+  --primaryWhite: #FFFEF6;
+  --primaryRed: #D2232A;
+  --primaryOrange: #FFA000;
+  --primaryPink: #E8DECE;
+
+  --backgroundColor: var(--primaryYellow);
+}
+
+body {
+  background-color: var(--backgroundColor);
+  height: 100vh;
+  width: 100vw;
+  margin: 0rem;
+  font-family: 'Inter', sans-serif;
+}
