@@ -1,9 +1,9 @@
 :root {
-  --primaryYellow: #F4F3D8;
+  --primaryYellow: #fcfbf1;
   --secondaryYellow: #EBCE70;
   --primaryDarkGreen: #06270B;
   --secondaryDarkGreen: #041807;
-  --lightGreen: #77723B;
+  --lightGreen: #50a940;
   --primaryGrey: #989898;
   --primaryWhite: #FFFEF6;
   --primaryRed: #D2232A;
@@ -19,4 +19,8 @@ body {
   width: 100vw;
   margin: 0rem;
   font-family: 'Inter', sans-serif;
+}
+
+.main-header-color {
+  color: var(--lightGreen);
 }
